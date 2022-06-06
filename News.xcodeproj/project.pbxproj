@@ -10,7 +10,7 @@
 		1F2BC5C4A97C5E5E6B94D396 /* Pods_News.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECCD09C71335A6705D75194 /* Pods_News.framework */; };
 		689F6FC7284DE7C700C4C4B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689F6FC6284DE7C700C4C4B4 /* AppDelegate.swift */; };
 		689F6FC9284DE7C700C4C4B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689F6FC8284DE7C700C4C4B4 /* SceneDelegate.swift */; };
-		689F6FCB284DE7C700C4C4B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689F6FCA284DE7C700C4C4B4 /* ViewController.swift */; };
+		689F6FCB284DE7C700C4C4B4 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689F6FCA284DE7C700C4C4B4 /* SplashViewController.swift */; };
 		689F6FCE284DE7C700C4C4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689F6FCC284DE7C700C4C4B4 /* Main.storyboard */; };
 		689F6FD1284DE7C700C4C4B4 /* News.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 689F6FCF284DE7C700C4C4B4 /* News.xcdatamodeld */; };
 		689F6FD3284DE7CA00C4C4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689F6FD2284DE7CA00C4C4B4 /* Assets.xcassets */; };
@@ -19,6 +19,7 @@
 		689F6FEB284DE7CA00C4C4B4 /* NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689F6FEA284DE7CA00C4C4B4 /* NewsUITests.swift */; };
 		689F6FED284DE7CA00C4C4B4 /* NewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689F6FEC284DE7CA00C4C4B4 /* NewsUITestsLaunchTests.swift */; };
 		68FC388B284DF8FA000C2CA8 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FC388A284DF8FA000C2CA8 /* UIColor+Extension.swift */; };
+		68FC388E284DFE19000C2CA8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FC388D284DFE19000C2CA8 /* BaseViewController.swift */; };
 		AC5B3EA640511E95BDC7BC77 /* Pods_News_NewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0A494FB81670C665773935 /* Pods_News_NewsUITests.framework */; };
 		E243DC2C87887B933AAAF7F4 /* Pods_NewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692C2E13BE1D57D366C59C1E /* Pods_NewsTests.framework */; };
 /* End PBXBuildFile section */
@@ -49,7 +50,7 @@
 		689F6FC3284DE7C700C4C4B4 /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		689F6FC6284DE7C700C4C4B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		689F6FC8284DE7C700C4C4B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		689F6FCA284DE7C700C4C4B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		689F6FCA284DE7C700C4C4B4 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		689F6FCD284DE7C700C4C4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		689F6FD0284DE7C700C4C4B4 /* News.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = News.xcdatamodel; sourceTree = "<group>"; };
 		689F6FD2284DE7CA00C4C4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		689F6FEA284DE7CA00C4C4B4 /* NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsUITests.swift; sourceTree = "<group>"; };
 		689F6FEC284DE7CA00C4C4B4 /* NewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		68FC388A284DF8FA000C2CA8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		68FC388D284DFE19000C2CA8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		692C2E13BE1D57D366C59C1E /* Pods_NewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB5207193AF8E411ED94FC1 /* Pods-News-NewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News-NewsUITests.release.xcconfig"; path = "Target Support Files/Pods-News-NewsUITests/Pods-News-NewsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A8022A290310C383D461677F /* Pods-NewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsTests.debug.xcconfig"; path = "Target Support Files/Pods-NewsTests/Pods-NewsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 		68FC3882284DF1AC000C2CA8 /* App Scences */ = {
 			isa = PBXGroup;
 			children = (
+				68FC388D284DFE19000C2CA8 /* BaseViewController.swift */,
 				68FC3883284DF7B6000C2CA8 /* Splash */,
 			);
 			path = "App Scences";
@@ -225,7 +228,7 @@
 		68FC3888284DF826000C2CA8 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				689F6FCA284DE7C700C4C4B4 /* ViewController.swift */,
+				689F6FCA284DE7C700C4C4B4 /* SplashViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -500,11 +503,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				689F6FCB284DE7C700C4C4B4 /* ViewController.swift in Sources */,
+				689F6FCB284DE7C700C4C4B4 /* SplashViewController.swift in Sources */,
 				689F6FC7284DE7C700C4C4B4 /* AppDelegate.swift in Sources */,
 				689F6FD1284DE7C700C4C4B4 /* News.xcdatamodeld in Sources */,
 				689F6FC9284DE7C700C4C4B4 /* SceneDelegate.swift in Sources */,
 				68FC388B284DF8FA000C2CA8 /* UIColor+Extension.swift in Sources */,
+				68FC388E284DFE19000C2CA8 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
