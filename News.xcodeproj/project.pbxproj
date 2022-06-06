@@ -118,13 +118,10 @@
 		689F6FC5284DE7C700C4C4B4 /* News */ = {
 			isa = PBXGroup;
 			children = (
-				689F6FC6284DE7C700C4C4B4 /* AppDelegate.swift */,
-				689F6FC8284DE7C700C4C4B4 /* SceneDelegate.swift */,
-				689F6FCA284DE7C700C4C4B4 /* ViewController.swift */,
-				689F6FCC284DE7C700C4C4B4 /* Main.storyboard */,
-				689F6FD2284DE7CA00C4C4B4 /* Assets.xcassets */,
-				689F6FD4284DE7CA00C4C4B4 /* LaunchScreen.storyboard */,
-				689F6FD7284DE7CA00C4C4B4 /* Info.plist */,
+				68FC387F284DF150000C2CA8 /* AppDelegate+Delegates */,
+				68FC3882284DF1AC000C2CA8 /* App Scences */,
+				68FC3881284DF198000C2CA8 /* Extensions */,
+				68FC3880284DF181000C2CA8 /* Resources */,
 				689F6FCF284DE7C700C4C4B4 /* News.xcdatamodeld */,
 			);
 			path = News;
@@ -145,6 +142,41 @@
 				689F6FEC284DE7CA00C4C4B4 /* NewsUITestsLaunchTests.swift */,
 			);
 			path = NewsUITests;
+			sourceTree = "<group>";
+		};
+		68FC387F284DF150000C2CA8 /* AppDelegate+Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				689F6FC8284DE7C700C4C4B4 /* SceneDelegate.swift */,
+				689F6FC6284DE7C700C4C4B4 /* AppDelegate.swift */,
+			);
+			path = "AppDelegate+Delegates";
+			sourceTree = "<group>";
+		};
+		68FC3880284DF181000C2CA8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				689F6FD4284DE7CA00C4C4B4 /* LaunchScreen.storyboard */,
+				689F6FD2284DE7CA00C4C4B4 /* Assets.xcassets */,
+				689F6FD7284DE7CA00C4C4B4 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		68FC3881284DF198000C2CA8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		68FC3882284DF1AC000C2CA8 /* App Scences */ = {
+			isa = PBXGroup;
+			children = (
+				689F6FCA284DE7C700C4C4B4 /* ViewController.swift */,
+				689F6FCC284DE7C700C4C4B4 /* Main.storyboard */,
+			);
+			path = "App Scences";
 			sourceTree = "<group>";
 		};
 		A4D8F76550C9E42B717FB3BC /* Pods */ = {
@@ -592,7 +624,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UKL9H5DR97;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = News/Info.plist;
+				INFOPLIST_FILE = News/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -622,7 +654,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UKL9H5DR97;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = News/Info.plist;
+				INFOPLIST_FILE = News/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
