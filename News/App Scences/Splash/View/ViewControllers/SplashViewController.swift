@@ -21,6 +21,7 @@ class SplashViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         createProgressBar()
+        goToHomeScreen()
     }
     
     //MARK:- Progress Bar
@@ -32,7 +33,12 @@ class SplashViewController: BaseViewController {
         progressViewContainer.addSubview(progressView)
     }
 
-
+    func goToHomeScreen(){
+        let storyboard = UIStoryboard(name: "Home", bundle: nil)
+        let homeVC = storyboard.instantiateViewController(withIdentifier: "HomeVC") as! HomeViewController
+        let navigationController = UINavigationController(rootViewController: homeVC)
+        UIApplication.shared.windows.first?.rootViewController = navigationController
+    }
 
 }
 
